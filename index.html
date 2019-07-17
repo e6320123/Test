@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 請定義問券名稱 -->
+    <title>問券調查</title>
+    <style>
+        body {
+            background-image: url(background.jpg)
+        }
+
+        h3 {
+            text-align: center ; 
+            font-family:cursive;
+           
+        }
+       
+        
+    </style>
+</head>
+
+<body>
+    <h3>運動習慣問卷調查</h3>
+    <img src="run.jpg" width="600"  alt="">
+    <br><br><br>
+    <form action="">
+        <label for="user_name">姓名</label>
+        <input type="text" name="user_name" id="">
+        <br><br><br>
+
+        <label for="sex">性別</label>
+        <input type="radio" name="sex" value="man" id="">男
+        <input type="radio" name="sex" value="woman" id="">女
+        <br><br><br>
+
+        <label for="age">年齡</label>
+        <input type="number" name="age" min="1" max="100">
+        <br><br><br>
+
+        <label for="item">運動項目</label>
+        <input type="checkbox" name="item" value="basketball" id="">籃球
+        <input type="checkbox" name="item" value="run" id="">跑步
+        <input type="checkbox" name="item" value="yuga" id="">瑜珈
+        <input type="checkbox" name="item" value="flywheel" id="">飛輪
+        <input type="checkbox" name="item" value="swim" id="">游泳
+        <br><br>
+        <input type="checkbox" name="item" value="tennis" id="">網球
+        <input type="checkbox" name="item" value="bicycle" id="">自行車
+        <input type="checkbox" name="item" value="dance" id="">有氧舞蹈
+        <input type="checkbox" name="item" value="training" id="">重量訓練
+        <br><br>
+        <input type="checkbox" name="item" value="other" id="">其他
+        <br><br><br>
+
+        <label for="frequence">運動頻率</label>
+        <input type="radio" name="frequence" id="">每天運動
+        <input type="radio" name="frequence" id="">每周0~1次
+        <input type="radio" name="frequence" id="">每周2~3次
+        <input type="radio" name="frequence" id="">每周4~6次
+        <br><br><br>
+
+        <label for="purpose">您運動的目的</label>
+        <input type="checkbox" name="purpose" id="">增進健康
+        <input type="checkbox" name="purpose" id="">減肥
+        <input type="checkbox" name="purpose" id="">健身增肌
+        <input type="checkbox" name="purpose" id="">放鬆紓壓
+        <input type="checkbox" name="purpose" id="">興趣
+        <input type="checkbox" name="purpose" id="">其他
+
+
+
+
+        <br><br><br><br><br><br>
+        <input type="submit" value="送出問卷">
+
+    </form>
+    <!-- HTML5 新增了許多 <input> 的型態，請使用這些type，設計一份問卷 -->
+    <!-- http://www.w3schools.com/html/html_form_input_types.asp -->
+
+    <!-- 如果不知道該怎麼下手，請參考這個網站所設計的情境問卷找靈感 -->
+    <!-- https://technews.tw/2018/10/18/surveycake-situation-list/ -->
+
+    <!-- 底下是作業需要包含的項目 -->
+    <!-- 1. 問卷需包含 5-7 個問題 -->
+    <!-- 2. type 挑選時，請盡量不重複 -->
+    <!-- 3. 挑選 至少 1 個問題，設置 pattern 檢核 -->
+
+</body>
+
+</html>
